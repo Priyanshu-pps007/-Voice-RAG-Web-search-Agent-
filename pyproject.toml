@@ -1,0 +1,23 @@
+[project]
+name = "voice-with-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "alembic>=1.18.4",
+    "dotenv>=0.9.9",
+    "fastapi>=0.136.1",
+    "langchain>=1.2.15",
+    "langchain-groq>=1.1.2",
+    "langchain-tavily>=0.2.18",
+    "langgraph>=1.1.9",
+    "ollama>=0.6.1",
+    "python-multipart>=0.0.20",
+    "python-magic>=0.4.27",
+    "qdrant-client>=1.17.1",
+    "redis>=7.4.0",
+    "sqlmodel>=0.0.38",
+    "uvicorn[standard]>=0.46.0",
+    "websocket>=0.2.1",
+]
